@@ -1,39 +1,28 @@
+
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.so
-.Python
 env/
 venv/
-ENV/
-build/
-develop-eggs/
+.venv/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+build/
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
-# Environment variables
+# Files
+*.jpg
+*.png
+*.gif
+*.mp4
+temp/
+temp_images/
+
+# Environment
 .env
-.venv
+.DS_Store
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
-
-# Logs
-*.log
-logs/
